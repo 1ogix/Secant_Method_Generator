@@ -16,3 +16,6 @@ input should be:
 this is due to Math Library
 
 ![image](https://github.com/1ogix/Secant_Method_Generator/assets/140695651/35862ecd-86a5-4c6f-b7b3-a4947cf67ce2)
+
+Requirements
+.NET8 package
