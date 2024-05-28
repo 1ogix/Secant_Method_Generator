@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <OutputPath>..\Output\</OutputPath> <!-- Output directory set to a subfolder in project directory -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MathNet.Symbolics" Version="0.25.0" />
+    </ItemGroup>
+</Project>
